@@ -24,7 +24,7 @@ md0 : active raid5 sdf[5] sde[3] sdd[2] sdc[1] sdb[0]
 
 mdadm: set /dev/sde faulty in /dev/md0
 
-Видно что помечен теперь как поломанный:
+Видно, что диск помечен теперь как поломанный:
 
 [vagrant@otuslinux ~]$ watch cat /proc/mdstat
 
